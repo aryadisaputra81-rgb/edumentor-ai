@@ -1,0 +1,270 @@
+/* ==========================================
+   ADUHAI (Aryadi Education AI)
+   STYLE.CSS
+========================================== */
+
+/* ==============================
+   Reset CSS
+============================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ==============================
+   Body
+============================== */
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+
+    background-color: #F3F4F6;
+
+    color: #1F2937;
+
+    line-height: 1.6;
+
+}
+
+/* ==============================
+   Container
+============================== */
+
+.container {
+
+    width: 90%;
+
+    max-width: 900px;
+
+    margin: 40px auto;
+
+    padding: 30px;
+
+    background-color: #FFFFFF;
+
+    border-radius: 15px;
+
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+
+}
+
+/* ==============================
+   Header
+============================== */
+
+header{
+
+    text-align:center;
+
+    margin-bottom:40px;
+
+}
+
+h1{
+
+    font-size:42px;
+
+    color:#2563EB;
+
+    margin-bottom:10px;
+
+}
+
+header p{
+
+    color:#6B7280;
+
+    font-size:18px;
+
+}
+
+/* ==============================
+   Main
+============================== */
+
+main{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:25px;
+
+}
+
+/* ==============================
+   Section
+============================== */
+
+section{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+/* ==============================
+   Label
+============================== */
+
+label{
+
+    font-weight:600;
+
+    margin-bottom:10px;
+
+    color:#374151;
+
+}
+
+/* ==============================
+   Textarea
+============================== */
+
+textarea{
+
+    width:100%;
+
+    min-height:170px;
+
+    padding:15px;
+
+    font-size:16px;
+
+    font-family:'Poppins', sans-serif;
+
+    border:1px solid #D1D5DB;
+
+    border-radius:10px;
+
+    resize:vertical;
+
+    outline:none;
+
+    transition:0.3s;
+
+}
+
+textarea:focus{
+
+    border-color:#2563EB;
+
+    box-shadow:0 0 8px rgba(37,99,235,0.2);
+
+}
+
+/* ==============================
+   Button
+============================== */
+
+button{
+
+    margin-top:20px;
+
+    align-self:flex-start;
+
+    padding:12px 25px;
+
+    background:#2563EB;
+
+    color:white;
+
+    border:none;
+
+    border-radius:10px;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+}
+
+button:hover{
+
+    background:#1D4ED8;
+
+    transform:translateY(-2px);
+
+}
+
+button:active{
+
+    transform:scale(0.98);
+
+}
+
+/* ==============================
+   Answer Box
+============================== */
+
+#answer{
+
+    min-height:180px;
+
+    padding:15px;
+
+    background:#F9FAFB;
+
+    border:1px solid #E5E7EB;
+
+    border-radius:10px;
+
+    white-space:pre-wrap;
+
+    overflow-wrap:break-word;
+
+    line-height:1.7;
+
+}
+
+/* ==============================
+   Footer
+============================== */
+
+footer{
+
+    margin-top:40px;
+
+    text-align:center;
+
+    font-size:14px;
+
+    color:#6B7280;
+
+}
+
+/* ==============================
+   Responsive
+============================== */
+
+@media(max-width:768px){
+
+    .container{
+
+        width:95%;
+
+        padding:20px;
+
+    }
+
+    h1{
+
+        font-size:32px;
+
+    }
+
+    button{
+
+        width:100%;
+
+    }
+
+}
